@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/hdd/falcon/Proyectos/Serios/oMeli/omeli.csproj": {}
+    "D:\\Scole\\Visual Studio\\Projects\\Ecommerce\\Omeli-Back\\Omeli-Back\\Omeli-Back.csproj": {}
   },
   "projects": {
-    "/hdd/falcon/Proyectos/Serios/oMeli/omeli.csproj": {
+    "D:\\Scole\\Visual Studio\\Projects\\Ecommerce\\Omeli-Back\\Omeli-Back\\Omeli-Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/hdd/falcon/Proyectos/Serios/oMeli/omeli.csproj",
-        "projectName": "omeli",
-        "projectPath": "/hdd/falcon/Proyectos/Serios/oMeli/omeli.csproj",
-        "packagesPath": "/hdd/falcon/argonarch/.nuget/packages/",
-        "outputPath": "/hdd/falcon/Proyectos/Serios/oMeli/obj/",
+        "projectUniqueName": "D:\\Scole\\Visual Studio\\Projects\\Ecommerce\\Omeli-Back\\Omeli-Back\\Omeli-Back.csproj",
+        "projectName": "Omeli-Back",
+        "projectPath": "D:\\Scole\\Visual Studio\\Projects\\Ecommerce\\Omeli-Back\\Omeli-Back\\Omeli-Back.csproj",
+        "packagesPath": "C:\\Users\\geide\\.nuget\\packages\\",
+        "outputPath": "D:\\Scole\\Visual Studio\\Projects\\Ecommerce\\Omeli-Back\\Omeli-Back\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/hdd/falcon/argonarch/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\geide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,19 +43,16 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.7, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -71,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/m9dbas0s0a0lfgha03hb85cnb3r82bf2-dotnet-sdk-8.0.303/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

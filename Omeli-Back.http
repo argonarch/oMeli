@@ -1,0 +1,6 @@
+@Omeli_Back_HostAddress = http://localhost:5264
+
+GET {{Omeli_Back_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
